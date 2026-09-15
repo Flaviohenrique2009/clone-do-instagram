@@ -23,46 +23,47 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-   
+
 }
 
-.sidebar__logo{
+.sidebar__logo {
     padding: 16px;
     margin-bottom: auto;
 }
 
 
 
-.sidebar img{
+.sidebar img {
     width: 20px;
 
 
 }
 
-.sidebar__icone{
+.sidebar__icone {
     display: flex;
     align-items: center;
     gap: 14px;
-    padding:12px;
+    padding: 12px;
     color: inherit;
     text-decoration: none;
     border-radius: 8px;
 
 }
 
-.sidebar__icone:hover{
+.sidebar__icone:hover {
 
-    background: #1a1a1a; ;
-    
+    background: #1a1a1a;
+    ;
+
 
 
 }
 
 
 
-.sidebar__icone span{
+.sidebar__icone span {
     font-weight: 200;
-    font-size:12px;
+    font-size: 12px;
 
 
 }
@@ -90,7 +91,80 @@ body {
 
 .profile {
     flex: 1;
+   
+
+
+}
+
+.profile-header{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+
+}
+
+.profile-header__top{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+
+
+}
+
+
+.image-profile {
+    width:100px;
+   
+}
 
 
 
+
+.image-profile img{
+    width: 100%;
+     
+
+}
+
+
+.profile-content{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+
+
+
+.profile-nick{   
+    display: flex;
+    gap: 8px;
+}
+
+.profile-nick span{
+    font-weight: 800;
+    font-size: 1.1rem;
+
+}
+
+.profile-nick img{
+    width: 18px;
+    height: 18px;
+
+}
+
+
+.profile-infos{
+    display: flex;
+
+}
+
+.profile-infos p{
+    margin-right: 18px;
+
+}
+
+.profile-infos span{
+    font-weight: 600;
+    margin-right: 4px;
 }
