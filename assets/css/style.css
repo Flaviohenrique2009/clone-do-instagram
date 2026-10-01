@@ -99,8 +99,9 @@ body {
 
 
 .profile {
+   
     flex: 1;
-
+    
 
 
 }
@@ -239,23 +240,23 @@ body {
 
 
 .container-destaque {
-    max-width:100px;
+    max-width: 100px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:8px ;
-    
+    gap: 8px;
+
 }
 
 .destaque-text {
     max-width: 100%;
     text-align: left;
     overflow: hidden;
-    white-space:nowrap;
-    line-height:20px;
+    white-space: nowrap;
+    line-height: 20px;
     font-size: 14px;
-    
+
 }
 
 .destaque-image {
@@ -275,24 +276,55 @@ body {
     border: 4px solid black;
 }
 
-.profile-tabs{
+.profile-tabs {
     display: flex;
-    
+    justify-content: center;
+    margin-top: 32px;
+    gap: 150px;
 
-     
+
 }
 
 
- .profile-tab{
- 
-  width:30px;
-  height:30px;
-  
+.profile-tab {
+    width: 22px;
+    height: 22px;
 
- }
-.profile-tab img{
+
+
+}
+
+.profile-tab img {
 
     width: 100%;
-    height:100%;
+    height: 100%;
 
 }
+
+.posts {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+
+}
+
+
+
+
+.posts img {
+    width: 240px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.post-image {
+    padding: 1px;
+}
+
+/* 1.criar um elemento novo invisivel
+que fique na frente da foto
+2.diminuir a opacidade do elemento
+3.colocar hover na div ou na imagem
+para quando o mouse for usado o elemento ficar visivel */
